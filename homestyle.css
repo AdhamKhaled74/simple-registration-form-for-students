@@ -1,0 +1,75 @@
+* {
+    /* padding: 0;
+    margin: 0; */
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to right, #a71930, #b3b3cc);
+ } 
+
+#m {
+    width: 100%;
+    font-size: 20px;
+}
+
+main {
+    float: right;
+    border: 5px solid white;
+    padding: 5px;
+    /* margin: 1rem; */
+}
+
+input {
+    padding: 8px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 17px;
+}
+aside {
+    text-align: center;
+    width: 400px;
+    padding: 25px;
+    /* margin: 1rem; */
+    float: left;
+    border: 4px solid white;
+    font-size: 20px;
+    background: linear-gradient(to right, #a71930, #b3b3cc);
+    color: white;
+}
+#tbl {
+    width: 1350px;
+    font-size: 20px;
+    background:  #a11130;
+}
+
+#tbl th {
+    background-color: white;
+    color: rgb(146, 22, 22) ;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+
+#tbl td {
+    color: white;
+    font-size: 24px;
+    padding: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+aside button {
+    font-family: 'Ubuntu', sans-serif; 
+    background-color:#a11130; 
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
